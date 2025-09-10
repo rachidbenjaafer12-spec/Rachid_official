@@ -1,0 +1,153 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("your-photo.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: #e91e63;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff4081;
+}
+
+/* ===== Music Section ===== */
+.music {
+  padding: 50px 20px;
+  background: #111;
+}
+
+.music h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.platforms a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.platforms a:hover {
+  background: #e91e63;
+}
+
+/* ===== Video Section ===== */
+.videos {
+  padding: 50px 20px;
+  background: #1a1a1a;
+}
+
+.videos h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* ===== Bio Section ===== */
+.bio {
+  padding: 50px 20px;
+  background: #111;
+}
+
+.bio h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.bio img {
+  margin-top: 20px;
+  max-width: 250px;
+  border-radius: 15px;
+  border: 3px solid #e91e63;
+}
+
+/* ===== Social ===== */
+.social {
+  padding: 40px 20px;
+  background: #1a1a1a;
+}
+
+.social h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.social .icons a {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #e91e63;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.social .icons a:hover {
+  background: #ff4081;
+}
+
+/* ===== Footer ===== */
+footer {
+  padding: 20px;
+  background: #000;
+  color: #777;
+  font-size: 0.9em;
+}
